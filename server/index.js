@@ -5,6 +5,7 @@ const driverRouter = require("./modules/driver/driver.router");
 const carRouter = require("./modules/car/car.router");
 const tripRequestRouter = require("./modules/trip-request/trip-request.router");
 
+//Створення серверу
 const app = express();
 
 app.use(express.json());
